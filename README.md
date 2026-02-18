@@ -25,7 +25,7 @@ Data Staging & Schema Prep
 - Date Formatting: Converted text-based dates into true DATE objects using STR_TO_DATE for both the date and date_added columns.
 - Nullification: Converted empty strings ('') into formal NULL values to improve the accuracy of aggregate functions.
 
-Feature Engineering 🚀
+🚀 Feature Engineering
 - Workforce Estimation: Created estimated_total_employees by back-calculating using the ratio: total_laid_off / percentage_laid_off.
 - Categorization: Added a company_size_bucket column using a CASE statement to segment companies into Small, Medium, or Large.
 - Event Tracking: Added layoff_event_count to track how many times a specific company branch appeared in the dataset using partitioned counts.
