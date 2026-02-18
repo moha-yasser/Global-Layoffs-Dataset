@@ -42,7 +42,7 @@ Data Staging & Schema Prep
 │   │   └── layoffs.csv
 │   └── cleaned/
 │       └── layoffs_cleaned.csv
-├── sql_scripts/
+├── sql_script/
 │   └── cleaning_workflow.sql
 └── README.md
 ```
