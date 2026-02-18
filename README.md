@@ -35,5 +35,16 @@ Data Staging & Schema Prep
 - Categorization: Added a company_size_bucket column using a CASE statement to segment companies into Small, Medium, or Large.
 - Event Tracking: Added layoff_event_count to track how many times a specific company branch appeared in the dataset using partitioned counts.
 
+## 📂 Dataset Source
+```bash
+├── data/
+│   ├── raw/
+│   │   └── layoffs.csv
+│   └── cleaned/
+│       └── layoffs_cleaned.csv
+├── sql_scripts/
+│   └── cleaning_workflow.sql
+└── README.md
+```
 
 
